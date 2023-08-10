@@ -14,7 +14,7 @@ export default class GameCard extends Component {
   render() {
     return (
       <div className="gameCard">
-            <img src="src\assets\popular-01.jpg" alt="" className="gamePicture"/>
+            <img src="popular-01.jpg" alt="" className="gamePicture"/>
             <div className="middlePart">
                 <h4>Fortnite</h4>
                 <div className="gameRating"> <span><FaStar/></span>  4.8 </div>

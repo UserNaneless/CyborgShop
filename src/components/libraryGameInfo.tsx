@@ -8,7 +8,7 @@ export default class LibraryGameInfo extends Component {
     render() {
         return (
             <div className="libraryGameInfoMain">
-                <img src="src\assets\game-01.jpg" className="libraryGameImage" />
+                <img src="game-01.jpg" className="libraryGameImage" />
                 <TitleGenre {...{
                     title: "fortnite",
                     genre: "sandbox"

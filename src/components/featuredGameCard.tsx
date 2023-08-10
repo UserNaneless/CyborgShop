@@ -9,7 +9,7 @@ export default class FeaturedGameCard extends Component {
     render() {
         return (
             <div className="featuredGameCardMain">
-                <img src="src\assets\featured-02.jpg" className="featuredGameImg"/>
+                <img src="featured-02.jpg" className="featuredGameImg"/>
                 <div className="featuredGameCardInfo">
                     <TitleGenre {...{
                         title: "island rusty",

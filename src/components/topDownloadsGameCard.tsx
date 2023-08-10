@@ -9,7 +9,7 @@ export default class TopDownloadsGameCard extends Component {
   render() {
     return (
       <div className="topDownloadsGameCardMain">
-        <img src="src\assets\game-01.jpg" alt="" className="topDownloadsGameCardImg"/>
+        <img src="game-01.jpg" alt="" className="topDownloadsGameCardImg"/>
         <TitleGenre {...{
             title: "fortnite",
             genre: "sandbox"

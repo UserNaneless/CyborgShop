@@ -8,7 +8,7 @@ export default class Header extends Component {
             <header className="headerTop container">
                 <div className="headerMenuLeft">
                     <a href="/">
-                        <img src="src\assets\logo.png" alt="" className="logo" />
+                        <img src="logo.png" alt="" className="logo" />
                     </a>
                     <input type="text" placeholder="Type something" className="headerInput"/>
                 </div>
@@ -21,7 +21,7 @@ export default class Header extends Component {
                     <a href="" className="menuItem profileItem">
                         <div className="profile">
                             <span>Profile</span>
-                            <img src="src\assets\profile-header.jpg" alt="" className="profileImg"/>
+                            <img src="profile-header.jpg" alt="" className="profileImg"/>
                         </div>
                     </a>
                 </nav>
