@@ -4,6 +4,7 @@ import { TitledContainer } from '../components/titledContainer'
 import "../styles/browsePage.css"
 import FeaturedGameCard from '../components/featuredGameCard'
 import TopDownloadsGameCard from '../components/topDownloadsGameCard'
+import ActiveStream from '../components/activeStream'
 
 export default class BrowsePage extends Component {
     render() {
@@ -48,21 +49,21 @@ export default class BrowsePage extends Component {
 
                     <div className="streamStartGuide">
                         <div className="guideStep">
-                            <img src="src\assets\service-01.jpg" className="guideStepIcon" />
+                            <img src="service-01.jpg" className="guideStepIcon" />
                             <h5 className="guideStepTitle">go to your profile</h5>
                             <div className="guideStepText">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dignissimos iste quibusdam aspernatur pariatur sapiente?
                             </div>
                         </div>
                         <div className="guideStep">
-                            <img src="src\assets\service-02.jpg" className="guideStepIcon" />
+                            <img src="service-02.jpg" className="guideStepIcon" />
                             <h5 className="guideStepTitle">live stream button</h5>
                             <div className="guideStepText">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dignissimos iste quibusdam aspernatur pariatur sapiente?
                             </div>
                         </div>
                         <div className="guideStep">
-                            <img src="src\assets\service-03.jpg" className="guideStepIcon" />
+                            <img src="service-03.jpg" className="guideStepIcon" />
                             <h5 className="guideStepTitle">you are live</h5>
                             <div className="guideStepText">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dignissimos iste quibusdam aspernatur pariatur sapiente?
@@ -76,6 +77,12 @@ export default class BrowsePage extends Component {
                     titleNormal: "live stream",
                     buttonText: "discover all streams"
                 }}>
+                    <div className="activeStreamsContainer">
+                        <ActiveStream />
+                        <ActiveStream />
+                        <ActiveStream />
+                        <ActiveStream />
+                    </div>
 
                 </TitledContainer>
 
