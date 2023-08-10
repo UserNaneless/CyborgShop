@@ -9,7 +9,7 @@
     width: 100%;
     height: 380px;
     padding: 80px 60px;
-    background: url("src/assets/banner-bg.jpg");
+    background: url("/banner-bg.jpg");
     border-radius: var(--border-radius);
     color: white;
     display: flex;
