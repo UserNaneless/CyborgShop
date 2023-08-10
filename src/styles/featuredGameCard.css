@@ -1,0 +1,10 @@
+.featuredGameCardInfo{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.featuredGameImg{
+    border-radius: var(--border-radius);
+}

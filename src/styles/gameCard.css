@@ -1,0 +1,46 @@
+.gameCard{
+    background: var(--background-color-2);
+    border-radius: var(--border-radius);
+    padding: 30px 15px;
+    color: white;
+}
+
+.gamePicture{
+    border-radius: var(--border-radius);
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.middlePart > h4{
+    font-size: 0.9375rem;
+}
+
+.endPart > h5{
+    font-size: 0.9375rem;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+.middlePart, .endPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gameRating, .gameDownloads{
+    font-size: 0.875rem;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-transform: uppercase;
+}
+
+.gameRating > span{
+    color: yellow;
+}
+
+.gameDownloads > span{
+    color: var(--text-color-active);
+}

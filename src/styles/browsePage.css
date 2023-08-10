@@ -1,0 +1,70 @@
+.browseMain{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.browseTopGames {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.browseTopGames .titledContainerMain:nth-child(1) {
+    flex-basis: calc(100%/3*2);
+}
+
+.browseTopGames .titledContainerMain:nth-child(2) {
+    flex-basis: calc(100%/3);
+}
+
+.featuredGames{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.featuredGames *{
+    flex-basis: calc(100%/3);
+}
+
+.topDownloads{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.streamStartGuide{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.guideStep{
+    padding: 30px;
+    border-radius: var(--border-radius);
+    border: 1px solid #444;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.guideStepIcon{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.guideStepTitle{
+    color: white;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+
+.guideStepText{
+    color: var(--text-color);
+    font-weight: normal;
+    font-size: .9375rem;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: 16px;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --text-color-active: #e75e8d;
+  --text-color: #666;
+  --background-color: #1f2122;
+  --background-color-2: #27292a;
+  --border-radius: 23px;
+}
+
+body {
+  background-color: var(--background-color);
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.contentContainer {
+  width: 100%;
+  background-color: var(--background-color-2);
+  padding: 60px;
+  border-radius: var(--border-radius);
+  margin-top: 20px;
+  display: flex;
+  gap: 60px;
+}
+
+.buttonMain {
+  color: white;
+  background-color: var(--text-color-active);
+  border-radius: var(--border-radius);
+  padding: 12px 30px;
+  text-transform: capitalize;
+  transition: all .3s;
+  height: 45px;
+  width: fit-content;
+}
+
+.buttonMain:hover {
+  cursor: pointer;
+  color: var(--text-color-active);
+  background-color: white;
+}
+
+
+.buttonSpecial {
+  color: white;
+  border: 1px solid var(--text-color-active);
+  color: var(--text-color-active);
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  padding: 12px 30px;
+  text-transform: capitalize;
+  transition: all .3s;
+  width: 190px;
+  height: 45px;
+}
+
+.buttonSpecial:hover:active {
+  cursor: pointer;
+  color: var(--text-color-active);
+  background-color: white;
+}
+
+.buttonSpecial:disabled{
+  border-color: #666;
+  color: #666;
+}

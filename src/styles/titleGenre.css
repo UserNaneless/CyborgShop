@@ -1,0 +1,19 @@
+.titleGenreMain{
+    color: white;   
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 0.9375rem;
+    white-space: nowrap;
+
+}
+
+.genre{
+    font-size: 0.9375rem;
+    font-weight: normal;
+    color: var(--text-color);
+    white-space: nowrap;
+}

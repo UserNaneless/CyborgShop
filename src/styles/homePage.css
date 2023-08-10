@@ -1,0 +1,50 @@
+.homeMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homeBanner{
+    width: 100%;
+    height: 380px;
+    padding: 80px 60px;
+    background: url("../assets/banner-bg.jpg");
+    border-radius: var(--border-radius);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.homeBannerTitle1{
+    font-size: 1.125em;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.homeBannerTitleMain{
+    font-size: 2.8125em;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.homeBannerTitleMain > span{
+    color: var(--text-color-active)
+}
+
+.popularGames{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    row-gap: 24px;
+}
+
+.popularGames *{
+    flex-basis: calc(25% - 24px);
+}
