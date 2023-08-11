@@ -7,6 +7,7 @@ import './index.css';
 import Header from './components/header';
 import HomePage from './routes/homePage';
 import BrowsePage from './routes/browsePage';
+import DetailsPage from './routes/detailsPage';
 
 
 const router = createBrowserRouter([{
@@ -16,6 +17,10 @@ const router = createBrowserRouter([{
 {
     path: "/browse",
     element: <BrowsePage />
+},
+{
+    path: "/details",
+    element: <DetailsPage/>
 }
 ])
 

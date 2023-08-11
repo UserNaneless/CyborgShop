@@ -16,7 +16,7 @@ export default class Header extends Component {
                 <nav className="headerMenuRight">
                     <a href="/" className="menuItem">Home</a>
                     <a href="/browse" className="menuItem">Browse</a>
-                    <a href="" className="menuItem">Details</a>
+                    <a href="/details" className="menuItem">Details</a>
                     <a href="" className="menuItem">Streams</a>
                     <a href="" className="menuItem profileItem">
                         <div className="profile">

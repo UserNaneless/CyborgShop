@@ -87,3 +87,7 @@ body {
   border-color: #666;
   color: #666;
 }
+
+button{
+    font-size: 0.875rem;
+}

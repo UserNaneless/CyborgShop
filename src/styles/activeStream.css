@@ -44,7 +44,7 @@
     opacity: 1;
 }
 
-.previewDetails .previewLive, .viewers, .gameName{
+.previewDetails .previewLive, .previewViewers, .previewGameName{
     position: absolute;
     width: fit-content;
     border-radius: 23px;
@@ -69,16 +69,16 @@
     top: var(--padding);
 }
 
-.viewers{
+.previewViewers{
     bottom: var(--padding);
     left: var(--padding);
 }
 
-.gameName{
+.previewGameName{
     right: var(--padding);
     bottom: var(--padding);
 }
-.streamerIcon {
+.previewDetails > .streamerIcon {
     grid-area: b;
     border-radius: 50%;
 }

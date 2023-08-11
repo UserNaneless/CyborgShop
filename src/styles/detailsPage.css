@@ -1,0 +1,139 @@
+.detailsMain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameDetailsInfoMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.gameDetailsInfoMain>* {
+    width: 100%;
+}
+
+.detailsGameImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.detailsImage:nth-child(1) {
+    width: 33%;
+}
+
+.detailsImage:nth-child(2) {
+    width: 67%;
+    aspect-ratio: 16 / 9;
+}
+
+.detailsImage {
+    border-radius: 23px;
+    max-height: 256px;
+}
+
+.detailsMainTitle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.8125em;
+}
+
+.gameDetailsRatings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.gameDetailsRatingInfo {
+    width: 100%;
+    padding: 30px;
+    font-size: 0.875em;
+    background-color: var(--background-color-2);
+    border-radius: 23px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gameDetailsRatingInfo:nth-child(2) {
+    justify-content: space-around;
+}
+
+.topDown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+.topDown span:nth-child(1) {
+    color: var(--text-color-active);
+    font-size: 16px;
+}
+
+.topDown:nth-child(1) span:nth-child(1) {
+    color: yellow;
+}
+
+.gameDetailsGameImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.gameDetailsGameImages>* {
+    border-radius: 23px;
+    width: calc(33% - 12px);
+}
+
+.gameDescription {
+    width: 100%;
+    color: var(--text-color);
+    font-size: 0.9375rem;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+
+
+.downloadButton {
+    width: 100%;
+    border: 1px solid var(--text-color-active);
+    color: var(--text-color-active);
+    border-radius: 23px;
+    padding: 12px 30px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+.downloadButton:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.relatedGameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.relatedGameContainer > *{ 
+    width: calc(50% - 12px);
+
+}

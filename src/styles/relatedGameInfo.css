@@ -1,0 +1,19 @@
+.relatedGameInfoMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--background-color-2);
+}
+
+.relatedGameInfoNameImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.relatedGameInfoNameImage > img{
+    border-radius: 23px;
+}

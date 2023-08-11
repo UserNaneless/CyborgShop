@@ -3,8 +3,8 @@ import { Component, ReactNode } from 'react'
 import "../styles/titledContainer.css";
 
 export interface titledContainerProps {
-    titleUnderlined: string
-    titleNormal: string
+    titleUnderlined?: string
+    titleNormal?: string
     buttonText?: string
     special?: boolean
     children?: ReactNode

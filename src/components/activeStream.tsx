@@ -11,8 +11,8 @@ export default class ActiveStream extends Component {
                     <img src="stream-01.jpg" className="previewImage" />
                     <div className="previewDetails">
                         <div className="previewLive">Live</div>
-                        <div className="viewers"> <FaRegEye/> 1.2k</div>
-                        <div className="gameName"> <FaGamepad/> CS-GO</div>
+                        <div className="previewViewers"> <FaRegEye/> 1.2k</div>
+                        <div className="previewGameName"> <FaGamepad/> CS-GO</div>
                     </div>
                 </div>
                 <img src="avatar-01.jpg" className="streamerIcon" />
