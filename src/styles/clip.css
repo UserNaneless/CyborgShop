@@ -1,0 +1,59 @@
+.clipMain{
+    background-color: var(--background-color-2);
+    padding: 30px 15px;
+    border-radius: 23px;
+}
+
+.clipPreview{
+    border-radius: 23px;
+    width: 100%;
+    position: relative;
+}
+
+.startButton{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: var(--text-color-active);
+
+    top: calc(50% - 22.5px);
+    left: calc(50% - 22.5px);
+
+    transition: all .3s;
+}
+
+.startButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: var(--text-color-active);
+}
+
+.clipTitleViews{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clipTitle{
+    font-size: 0.9725rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.clipViews{
+    color: var(--text-color-active);
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.clipViews span:last-child{
+    color: white;
+}

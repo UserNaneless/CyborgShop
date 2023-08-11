@@ -35,6 +35,14 @@
     border-radius: var(--border-radius);
     padding: 8px 10px 8px 20px;
     height: 100%;
+
+    transition: all .3s;
+}
+
+.profile:hover{
+    cursor: pointer;
+    background-color: var(--text-color-active);
+    color: white;
 }
 
 .profileImg{

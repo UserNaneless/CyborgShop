@@ -9,6 +9,7 @@ import HomePage from './routes/homePage';
 import BrowsePage from './routes/browsePage';
 import DetailsPage from './routes/detailsPage';
 import StreamPage from './routes/streamPage';
+import ProfilePage from './routes/profilePage';
 
 
 const router = createBrowserRouter([{
@@ -26,6 +27,10 @@ const router = createBrowserRouter([{
 {
     path: "/streams",
     element: <StreamPage />
+},
+{
+    path: "/profile",
+    element: <ProfilePage />
 }
 ])
 

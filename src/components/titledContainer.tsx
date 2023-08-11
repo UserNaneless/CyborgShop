@@ -16,9 +16,11 @@ export class TitledContainer extends Component<titledContainerProps> {
             <div className="titledContainerMain" style={{
                 background: this.props.special ? "var(--background-color-2)" : "var(--background-color)"
             }}>
-                <h4 className="titledContainerTitle" style={{
-                    textAlign: this.props.special ? "center" : "start"
-                }}><span>{this.props.titleUnderlined}</span> {this.props.titleNormal}</h4>
+                {this.props.titleNormal &&
+                    <h4 className="titledContainerTitle" style={{
+                        textAlign: this.props.special ? "center" : "start"
+                    }}><span>{this.props.titleUnderlined}</span> {this.props.titleNormal}</h4>
+                }
 
                 {this.props.children}
 

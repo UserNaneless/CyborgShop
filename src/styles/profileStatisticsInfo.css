@@ -1,0 +1,15 @@
+.profileStatisticsInfoMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: normal;
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--text-color);
+    padding-bottom: 20px;
+}
+
+.statCount{
+    color: var(--text-color-active);
+}

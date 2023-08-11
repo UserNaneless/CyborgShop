@@ -18,7 +18,7 @@ export default class Header extends Component {
                     <a href="/browse" className="menuItem">Browse</a>
                     <a href="/details" className="menuItem">Details</a>
                     <a href="/streams" className="menuItem">Streams</a>
-                    <a href="" className="menuItem profileItem">
+                    <a href="/profile" className="menuItem profileItem">
                         <div className="profile">
                             <span>Profile</span>
                             <img src="profile-header.jpg" alt="" className="profileImg"/>
