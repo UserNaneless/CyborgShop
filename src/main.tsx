@@ -8,6 +8,7 @@ import Header from './components/header';
 import HomePage from './routes/homePage';
 import BrowsePage from './routes/browsePage';
 import DetailsPage from './routes/detailsPage';
+import StreamPage from './routes/streamPage';
 
 
 const router = createBrowserRouter([{
@@ -20,7 +21,11 @@ const router = createBrowserRouter([{
 },
 {
     path: "/details",
-    element: <DetailsPage/>
+    element: <DetailsPage />
+},
+{
+    path: "/streams",
+    element: <StreamPage />
 }
 ])
 
@@ -28,5 +33,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <Header />
         <RouterProvider router={router} />
-    </React.StrictMode>,
+    </React.StrictMode>
 )

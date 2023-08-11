@@ -8,6 +8,10 @@
     column-gap: 10px;
 }
 
+.streamTitle{
+    grid-area: d;
+}
+
 .activeStreamPreview {
     grid-area: a;
     width: 100%;
@@ -78,7 +82,8 @@
     right: var(--padding);
     bottom: var(--padding);
 }
-.previewDetails > .streamerIcon {
+
+.streamerIcon {
     grid-area: b;
     border-radius: 50%;
 }
